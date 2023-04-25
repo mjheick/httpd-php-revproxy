@@ -1,0 +1,5 @@
+* Add "comments" to IP, etc.
+* Treat "default" hostname differently
+* Allow regexes in source hostnames
+* Change login to use Synapps tools SAML log in.
+* Restrict admin access to groups.

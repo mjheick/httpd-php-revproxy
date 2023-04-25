@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -k -s 'https://'`uname -n`'/api/cred_cron.php'

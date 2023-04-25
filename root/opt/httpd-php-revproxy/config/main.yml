@@ -1,0 +1,15 @@
+# vim:ts=4:expandtab
+
+# storage options
+redirects_file: "/opt/httpd-php-revproxy/config/redirects.yml"
+iplist_file: "/opt/httpd-php-revproxy/config/iplist.yml"
+credentials_file: "/opt/httpd-php-revproxy/config/creds.yml"
+htaccess_file: "/opt/httpd-php-revproxy/config/.htaccess"
+htpasswd_file: "/opt/httpd-php-revproxy/config/.htpasswd"
+
+# credential expiry cron (48 hours)
+credential_expiry_time: 48
+
+# LDAP authentication information
+ldap_host: "ldaps://ldap-server"
+ldap_base_dn: "dc=users,,dc=local"

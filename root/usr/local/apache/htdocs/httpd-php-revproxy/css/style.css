@@ -1,0 +1,215 @@
+body {
+	font-size: 75%;
+}
+
+div.disabled {
+	color: red;
+	float: right;
+	padding: 8px;
+}
+div.permanent {
+	float: right;
+	padding: 8px;
+}
+
+button.create_new {
+	float: left;
+	margin-bottom: 10px;
+}
+
+div.quota {
+	float: left;
+	position: relative;
+	top: 2px;
+}
+
+div.accordion {
+	clear: both;
+}
+
+div.progress_bar {
+	width: 260px;
+	position: relative;
+}
+
+span.progress_text {
+	position: absolute;
+	left: 10px;
+}
+
+div.quota span.using {
+	font-weight: bold;
+	font-size: 110%;
+}
+
+div.quota span.total {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.status-active {
+	color: #007A29;
+}
+
+.status-powered-off {
+	color: #CC0000;
+}
+
+.status-installing-os {
+	color: #3939CC;
+}
+
+.status-text {
+	color: blue;
+}
+
+.server-name{
+	font-size: 120%;
+}
+.ip {
+	color: blue;
+}
+
+ul.actions li {
+	padding: 4px 0;
+}
+
+span.icon
+{
+	background-image: url(pepper-grinder/images/ui-icons_3572ac_256x240.png);
+	padding: 0 0 0 14px;
+}
+
+div.current_task {
+margin: 10px;
+}
+
+.clear {
+clear: both;
+}
+
+#step1_network {
+position: relative;
+left: 32px;
+}
+
+div.header {
+	margin: 3px;
+}
+
+div.header span {
+	padding-left: 10px;
+}
+
+div.header span.logo {
+	color: #aa0000;
+	font-size: 32px;
+	font-weight: 20px;
+	width: 100px;
+}
+
+div.header span.login {
+	float: right;
+}
+
+div.border {
+}
+
+h2 {
+	font-size: 20px;
+	color: #0000aa;
+}
+
+select {
+	padding: 2px;
+}
+
+table.serverlist {
+	border-collapse: collapse;
+}
+
+table.serverlist td,th {
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	padding: 5px 
+}
+
+table.serverlist th {
+	background: #2646FF;
+	color: #ffffff;
+	font-size: 110%;
+}
+
+a, a:visited {
+	color: #aa0000;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #4261FF;
+}
+
+span.over_quota {
+	color: blue;
+}
+
+.popup 
+{
+	background:#FFF;
+	border:1px solid #333;
+	padding:1px;
+}
+.popup-header 
+{
+	height:24px;
+	padding:7px;
+	background:url("../images/bgr_popup_header.jpg") repeat-x;
+}
+.popup-header h2 
+{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	float:left;
+}
+.popup-header .close-link 
+{
+	float:right;
+		 	 font-size:11px;
+}
+.popup-body 
+{
+	padding:10px;
+	background: #ffffff;
+}
+
+textarea
+{
+	width: 100%;
+	height: 300px;
+}
+
+table.options {
+	width: 100%;
+}
+
+table.options td input {
+	width: 100%;
+}
+
+table.options td.key {
+	width: 180px;
+}
+
+table.options label {
+	display: inline;
+}
+
+b.header {
+	font-size: 14pt;
+}
+
+textarea.options {
+	width: 100%;
+}
